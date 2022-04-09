@@ -86,7 +86,7 @@ body main .flex .image {
     background-position: right top;
     position: absolute;
     top: 0;
-    right: -90px;
+    right: 0;
   }
 }
 

@@ -1,17 +1,23 @@
-# Frontend Mentor - Base Apparel coming soon page solution
-
-This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0).
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor - Base Apparel coming soon page solution
 
+This is a solution from [Frontendmentor.io](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0).
+
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. <br><br><br><br>
+
+
+# Check this out
+### Links
+
+- [Live Site UR](https://arifkhanever.github.io/Base-Apparel-coming-soon/)
+
+- [Solution URL](https://www.frontendmentor.io/solutions/baseapparelcomingsoon-H1RW780Qq)
+
+- [My FEM Profile](https://www.frontendmentor.io/profile/ArifKhanEver)
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with HTML CSS JS and SCSS](#built-with)
 
@@ -27,10 +33,7 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -43,5 +46,5 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ArifKhanEver](https://www.frontendmentor.io/profile/ArifKhanEver)
+- Twitter - [@ArifKhanEver](https://www.twitter.com/ArifKhanEver)
