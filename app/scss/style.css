@@ -1,0 +1,263 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(135deg, white 0%, #fff5f5 60%) no-repeat;
+}
+
+@media screen and (min-width: 1140px) {
+  body {
+    background-color: rgba(255, 245, 245, 0.4);
+    background-image: url(../../images/bg-pattern-desktop.svg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+}
+
+body main .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 32px 0px 32px 32px;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .logo {
+    margin: 66px 0 0 165px;
+  }
+}
+
+body main .logo img {
+  height: 22px;
+  width: 100px;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .logo img {
+    height: 34px;
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body main .flex .image {
+  width: 100%;
+  height: 250px;
+  background-image: url(../../images/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  body main .flex .image {
+    height: 550px;
+    background-image: url(../../images/hero-desktop.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    background-image: url(../../images/hero-desktop.jpg);
+    height: 125vh;
+    width: 609px;
+    background-size: 100%;
+    background-position: right top;
+    position: absolute;
+    top: 0;
+    right: -90px;
+  }
+}
+
+body main .flex .text {
+  padding-top: 67px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding-top: 134px;
+  }
+}
+
+body main .flex .text .wrapper {
+  margin: 0 30px;
+}
+
+@media screen and (min-width: 500px) {
+  body main .flex .text .wrapper {
+    max-width: 430px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text .wrapper {
+    margin-left: 165px;
+    text-align: left;
+  }
+}
+
+body main .flex .text h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ce9797;
+  letter-spacing: 5px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text h1 {
+    font-size: 65px;
+    margin-bottom: 22px;
+    letter-spacing: 17px;
+    line-height: 1.05;
+  }
+}
+
+body main .flex .text h1 span {
+  display: block;
+  font-weight: 600;
+  color: black;
+}
+
+body main .flex .text p {
+  font-size: 14px;
+  color: #ce9797;
+  line-height: 1.5;
+  margin-bottom: 34px;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text p {
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
+
+body main .flex .text form {
+  position: relative;
+}
+
+body main .flex .text form #email {
+  width: 98%;
+  padding: 16px 20px;
+  border: 1px solid #ce9797;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text form #email {
+    width: 410px;
+    padding: 20px 30px;
+  }
+}
+
+body main .flex .text form #email.invalid:focus {
+  border: 2px solid #f96262;
+  color: black;
+}
+
+body main .flex .text form #email.valid:focus {
+  border: 2px solid #3cc73c;
+  color: black;
+}
+
+body main .flex .text form .validation-icon {
+  position: absolute;
+  top: 17%;
+  right: 23%;
+  height: 25px;
+}
+
+body main .flex .text form .validation-icon.invalid {
+  background-image: url(../../images/icon-error.svg);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 100%;
+}
+
+body main .flex .text form .validation-icon.valid {
+  background-image: url(../../images/valid.png);
+  background-size: 100%;
+  background-position: center 7px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 100%;
+}
+
+body main .flex .text form #submit {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  height: 50px;
+  width: 65px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #f8bfbf, #e48686);
+  -webkit-box-shadow: 5px 7px 17px rgba(228, 134, 134, 0.637);
+          box-shadow: 5px 7px 17px rgba(228, 134, 134, 0.637);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text form #submit {
+    width: 100px;
+    height: 58px;
+    right: -17px;
+  }
+}
+
+body main .flex .text form #submit:hover {
+  scale: 1.1;
+  background: linear-gradient(135deg, #f8bfbf, #f1a7a7);
+}
+
+body main .flex .text form .error-message {
+  display: none;
+  text-align: left;
+  margin: 8px 30px;
+  font-size: 12px;
+  color: #f96262;
+}
+
+@media screen and (min-width: 1140px) {
+  body main .flex .text form .error-message {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
